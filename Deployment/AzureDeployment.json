@@ -10,7 +10,7 @@
             }
         },
         "repoUrl": {
-            "defaultValue": "https://github.com/lwhitelock/HuduM365Automation.git",
+            "defaultValue": "https://github.com/Computer-Fellows-Inc/HuduM365Automation.git",
             "type": "string",
             "metadata": {
                 "description": "Repository URL to use"
@@ -38,7 +38,7 @@
             }
         },
         "customerExclude": {
-            "defaultValue": "Demo Customer,Example Customer,Restricted Customer",
+            "defaultValue": "",
             "type": "string",
             "metadata": {
                 "description": "A list of customer display names to skip from the sync."
@@ -101,21 +101,21 @@
             }
         },
         "PSAUserURL": {
-            "defaultValue": "https://your.halodomain.com/customers?mainview=user&inactive=false&userid=",
+            "defaultValue": "",
             "type": "string",
             "metadata": {
                 "description": "The URL used to link a user in Hudu to your PSA (Only Halo supported at present)"
             }
         },
         "RMMDeviceURL": {
-            "defaultValue": "https://merlotrmm.centrastage.net/device/",
+            "defaultValue": "",
             "type": "string",
             "metadata": {
                 "description": "The URL used to link a device to your RMM (Only Datto RMM support at present)"
             }
         },
         "RMMRemoteURL": {
-            "defaultValue": "https://merlot.centrastage.net/csm/remote/rto/",
+            "defaultValue": "",
             "type": "string",
             "metadata": {
                 "description": "The URL used to launch a remote session on a device in your RMM (Only Datto RMM support at present)"
